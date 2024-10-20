@@ -1,0 +1,26 @@
+{
+  "name": "chapter-10-airbnb",
+  "version": "1.0.0",
+  "description": "airbnb backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwind -i ./views/input.css -o ./public/output.css --watch",
+    "start": "nodemon app.js & npm run tailwind"
+  },
+  "keywords": [
+    "bhk",
+    "bhosdie"
+  ],
+  "author": "kishan tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwind": "^4.0.0"
+  }
+}

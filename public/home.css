@@ -1,0 +1,59 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #ff5a5f; /* Airbnb's signature color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Take up most of the viewport height */
+}
+
+a {
+    text-decoration: none;
+    background-color: #00a699; /* Teal color for buttons */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+a:hover {
+    background-color: #007a6d; /* Darker teal on hover */
+    transform: scale(1.05); /* Slight scale up effect */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    a {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
